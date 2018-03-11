@@ -7,7 +7,7 @@ return document.querySelector(`#nested .target`)
 function increaseRankBy(n){
    document.getElementById('app').querySelectorAll('ul.ranked-list li');
   for(let i = 0; i < n.length; i++){
-    n[i].innerHTML = (i + `${n}`)
+    n[i].innerHTML = (i + 3)
   }
   return n
 }

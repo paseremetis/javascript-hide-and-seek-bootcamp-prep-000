@@ -6,10 +6,10 @@ return document.querySelector(`#nested .target`)
 }
 function increaseRankBy(n){
    const rankedLists = document.querySelectorAll('.ranked-list');
-  for(let i = 0; i < n.length; i++){
-    n[i].innerHTML = (`${i + 3}`)
+  for(let i = 0; i < rankedLists.length; i++){
+    rankedLists[i].innerHTML = (`${i + 3}`)
   }
-  return n
+  return rankedLists
 }
 function deepestChild(){
   //use querySelector and querySelectorAll
